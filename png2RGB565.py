@@ -28,3 +28,5 @@ def convert_png_to_rgb565(input_file='lutino_cropped_brightlight.png', output_fi
     except Exception as e:
         print(f"Conversion failed: {e}")
         return False
+
+convert_png_to_rgb565()
