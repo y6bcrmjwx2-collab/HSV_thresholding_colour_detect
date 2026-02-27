@@ -177,6 +177,18 @@ void app_main(void)
     // color_threshold_t lutino_thresh = lutino_thresh;
     // color_threshold_t green_thresh = green_thresh;
 
+    printf("initializing PSRAM and checking availability...\n");
+    if (!esp_spiram_is_initialized())
+    {
+        ESP_LOGE(TAG, "PSRAM not initialized!");
+        return;
+    }
+
+    size_t psram_total = heap_caps_get_total_size(MALLOC_CAP_SPIRAM);
+    size_t psram_free_start = heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
+    printf("Total PSRAM: %d bytes (%.2f MB)\n", psram_total, psram_total / 1024.0 / 1024.0);
+    printf("Free PSRAM at start: %d bytes (%.2f MB)\n", psram_free_start, psram_free_start / 1024.0 / 1024.0);
+
     // Arrays to store pixel classifications, allocate in PSRAM
     bool *lutino_pixels = (bool *)heap_caps_malloc(pixel_count * sizeof(bool), MALLOC_CAP_SPIRAM);
     bool *green_pixels = (bool *)heap_caps_malloc(pixel_count * sizeof(bool), MALLOC_CAP_SPIRAM);
@@ -189,6 +201,9 @@ void app_main(void)
 
     memset(lutino_pixels, 0, pixel_count * sizeof(bool));
     memset(green_pixels, 0, pixel_count * sizeof(bool));
+    size_t psram_after_alloc = heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
+    printf("\nPSRAM after allocating arrays: %d bytes free (used %d bytes)\n",
+           psram_after_alloc, psram_free_start - psram_after_alloc);
 
     int lutino_count = 0;
     int green_count = 0;
@@ -219,14 +234,23 @@ void app_main(void)
     printf("Lutino pixels: %d (%.2f%%)\n", lutino_count, lutino_percent);
     printf("Green pixels: %d (%.2f%%)\n", green_count, green_percent);
 
+    // Check PSRAM before blob detection
+    size_t psram_before_blobs = heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
+    printf("\nPSRAM before blob detection: %d bytes free\n", psram_before_blobs);
+
     // Find blobs for lutino and green
     blob_t lutino_blobs[MAX_BLOBS];
     blob_t green_blobs[MAX_BLOBS];
     int lutino_blob_count = 0;
     int green_blob_count = 0;
 
+    printf("Lutino Blob Detection Starting...\n");
     find_blobs(lutino_pixels, lutino_blobs, &lutino_blob_count);
+    printf("Green Blob Detection Starting...\n");
     find_blobs(green_pixels, green_blobs, &green_blob_count);
+    // Check PSRAM after blob detection
+    size_t psram_after_blobs = heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
+    printf("\nPSRAM after blob detection: %d bytes free\n", psram_after_blobs);
 
     // Detection logic with 30% threshold and blob analysis
     bool lutino_detected = false;
@@ -294,4 +318,19 @@ void app_main(void)
     // Free allocated PSRAM memory
     heap_caps_free(lutino_pixels);
     heap_caps_free(green_pixels);
+
+    // Final PSRAM check
+    size_t psram_final = heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
+    printf("Final PSRAM free: %d bytes (should equal start: %d)\n",
+           psram_final, psram_free_start);
+
+    if (psram_final == psram_free_start)
+    {
+        printf("All PSRAM properly freed\n");
+    }
+    else
+    {
+        printf("Memory leak detected! %d bytes not freed\n",
+               psram_free_start - psram_final);
+    }
 }
