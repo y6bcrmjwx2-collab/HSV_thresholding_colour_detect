@@ -48,9 +48,26 @@ typedef struct
 
 void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
 {
-    bool visited[pixel_count] = {false};
+    bool *visited = (bool *)heap_caps_malloc(pixel_count * sizeof(bool), MALLOC_CAP_SPIRAM);
+    if (visited == NULL)
+    {
+        ESP_LOGE(TAG, "Failed to allocate visited array in PSRAM!");
+        *blob_count = 0;
+        return;
+    }
+
+    memset(visited, 0, pixel_count * sizeof(bool));
     *blob_count = 0;
     printf("starting blob detection \n");
+
+    int *stack = (int *)heap_caps_malloc(pixel_count * sizeof(int), MALLOC_CAP_SPIRAM);
+    if (stack == NULL)
+    {
+        ESP_LOGE(TAG, "Failed to allocate stack in PSRAM!");
+        heap_caps_free(visited);
+        *blob_count = 0;
+        return;
+    }
 
     for (int i = 0; i < pixel_count; i++)
     {
@@ -65,7 +82,7 @@ void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
 
             // Simple flood fill (4-connected)
             // a DFS approach in this case
-            int stack[pixel_count];
+            // int stack[pixel_count];
             int stack_ptr = 0;
             stack[stack_ptr++] = i; // stack push operation
             visited[i] = true;
@@ -147,6 +164,8 @@ void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
         }
     }
     printf(" Blob Detection Complete: %d blobs found\n", *blob_count);
+    heap_caps_free(visited);
+    heap_caps_free(stack);
 }
 
 void app_main(void)
@@ -154,13 +173,20 @@ void app_main(void)
 
     printf("Image loaded \n");
     printf("Size: %d, %d pixels\n", RGB565_size, pixel_count);
-    // Initialize thresholds
-    color_threshold_t lutino_thresh = lutino_thresh;
-    color_threshold_t green_thresh = green_thresh;
 
-    // Arrays to store pixel classifications
-    bool lutino_pixels[pixel_count];
-    bool green_pixels[pixel_count];
+    // color_threshold_t lutino_thresh = lutino_thresh;
+    // color_threshold_t green_thresh = green_thresh;
+
+    // Arrays to store pixel classifications, allocate in PSRAM
+    bool *lutino_pixels = (bool *)heap_caps_malloc(pixel_count * sizeof(bool), MALLOC_CAP_SPIRAM);
+    bool *green_pixels = (bool *)heap_caps_malloc(pixel_count * sizeof(bool), MALLOC_CAP_SPIRAM);
+
+    if (lutino_pixels == NULL || green_pixels == NULL)
+    {
+        ESP_LOGE(TAG, "Failed to allocate PSRAM!");
+        return;
+    }
+
     memset(lutino_pixels, 0, pixel_count * sizeof(bool));
     memset(green_pixels, 0, pixel_count * sizeof(bool));
 
@@ -184,6 +210,7 @@ void app_main(void)
             green_count++;
         }
     }
+    printf("Pixel classification complete\n");
 
     // Calculate percentage of matching pixels
     float lutino_percent = (float)lutino_count / pixel_count * 100;
@@ -206,7 +233,7 @@ void app_main(void)
     bool green_detected = false;
 
     // Check lutino detection
-    if (lutino_percent >= 30.0f)
+    if (lutino_percent >= 10.0f)
     {
         // Check if there's a significant blob
         for (int i = 0; i < lutino_blob_count; i++)
@@ -232,7 +259,7 @@ void app_main(void)
     }
 
     // Check green detection similarly
-    if (green_percent >= 30.0f)
+    if (green_percent >= 10.0f)
     {
         for (int i = 0; i < green_blob_count; i++)
         {
@@ -247,7 +274,6 @@ void app_main(void)
         }
     }
 
-    // Final result
     if (lutino_detected && green_detected)
     {
         printf("Both birds detected!\n");
@@ -264,4 +290,8 @@ void app_main(void)
     {
         printf("No bird detected\n");
     }
+
+    // Free allocated PSRAM memory
+    heap_caps_free(lutino_pixels);
+    heap_caps_free(green_pixels);
 }
