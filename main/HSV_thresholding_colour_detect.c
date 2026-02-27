@@ -90,27 +90,27 @@ void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
                 current_blob.x_center += x;
                 current_blob.y_center += y;
 
-                // Check neighbors (4-connected)
-                int neighbors[4] = {
-                    idx - 1,           // left
-                    idx + 1,           // right
-                    idx - IMAGE_WIDTH, // up
-                    idx + IMAGE_WIDTH  // down
-                };
-
-                for (int n = 0; n < 4; n++)
+                // Check ALL pixels within max_gap distance
+                for (int dy = -max_gap; dy <= max_gap; dy++)
                 {
-                    int nidx = neighbors[n];
-                    if (nidx >= 0 && nidx < pixel_count && !visited[nidx] && pixel_mask[nidx])
+                    for (int dx = -max_gap; dx <= max_gap; dx++)
                     {
-                        // Check if neighbors are close enough (gap condition)
-                        int nx = nidx % IMAGE_WIDTH;
-                        int ny = nidx / IMAGE_WIDTH;
+                        if (dx == 0 && dy == 0)
+                            continue; // Skip current pixel
 
-                        if (abs(nx - x) <= MAX_GAP && abs(ny - y) <= MAX_GAP)
+                        int nx = x + dx;
+                        int ny = y + dy;
+
+                        // Check bounds
+                        if (nx >= 0 && nx < IMAGE_WIDTH && ny >= 0 && ny < IMAGE_HEIGHT)
                         {
-                            visited[nidx] = true;
-                            stack[stack_ptr++] = nidx;
+                            int nidx = ny * IMAGE_WIDTH + nx;
+
+                            if (!visited[nidx] && pixel_mask[nidx])
+                            {
+                                visited[nidx] = true;
+                                stack[stack_ptr++] = nidx;
+                            }
                         }
                     }
                 }
