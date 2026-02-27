@@ -50,6 +50,7 @@ void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
 {
     bool visited[pixel_count] = {false};
     *blob_count = 0;
+    printf("starting blob detection \n");
 
     for (int i = 0; i < pixel_count; i++)
     {
@@ -63,9 +64,10 @@ void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
             current_blob.max_y = 0;
 
             // Simple flood fill (4-connected)
+            // a DFS approach in this case
             int stack[pixel_count];
             int stack_ptr = 0;
-            stack[stack_ptr++] = i;
+            stack[stack_ptr++] = i; // stack push operation
             visited[i] = true;
 
             while (stack_ptr > 0)
@@ -123,11 +125,28 @@ void find_blobs(bool *pixel_mask, blob_t *blobs, int *blob_count)
                 // Only keep blobs above minimum size
                 if (current_blob.pixel_count >= MIN_PIXEL_THRESHOLD)
                 {
-                    blobs[(*blob_count)++] = current_blob;
+                    // blobs[(*blob_count)++] = current_blob;
+                    blobs[*blob_count] = current_blob;
+
+                    // Blob storage tracking
+                    printf("Blob %d is added to blobs array", *blob_count);
+                    printf(" (size: %d pixels at [%d,%d])",
+                           current_blob.pixel_count,
+                           current_blob.x_center,
+                           current_blob.y_center);
+                    (*blob_count)++;
+
+                    printf(" → Total blobs now: %d\n", *blob_count);
+                }
+                else
+                {
+                    printf("  Ignored small blob of %d pixels (below threshold %d)\n",
+                           current_blob.pixel_count, MIN_PIXEL_THRESHOLD);
                 }
             }
         }
     }
+    printf(" Blob Detection Complete: %d blobs found\n", *blob_count);
 }
 
 void app_main(void)
