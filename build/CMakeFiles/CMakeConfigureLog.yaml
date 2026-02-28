@@ -23,6 +23,8 @@ events:
     names:
       - "git"
     candidate_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -50,7 +52,10 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/git"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/git"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/git"
@@ -71,6 +76,8 @@ events:
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -110,6 +117,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -130,6 +138,8 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -157,7 +167,10 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/uname"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/uname"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/uname"
@@ -178,6 +191,8 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -217,6 +232,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -248,6 +264,8 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -275,7 +293,14 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/ninja-build"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/ninja"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/samu"
@@ -307,6 +332,8 @@ events:
     found: "/Users/maile/.espressif/tools/ninja/1.12.1/ninja"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -346,6 +373,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -367,6 +395,8 @@ events:
     names:
       - "xtensa-esp32s3-elf-gcc"
     candidate_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -394,7 +424,10 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc"
@@ -402,6 +435,8 @@ events:
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -441,6 +476,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -471,6 +507,8 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -510,6 +548,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -556,6 +595,8 @@ events:
       - "ar"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -582,9 +623,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -624,6 +668,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -647,6 +692,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -673,9 +720,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -715,6 +765,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -738,6 +789,8 @@ events:
       - "strip"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -764,9 +817,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-strip"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -806,6 +862,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -829,6 +886,8 @@ events:
       - "ld"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -855,9 +914,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ld"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -897,6 +959,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -920,6 +983,8 @@ events:
       - "nm"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -946,9 +1011,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-nm"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -988,6 +1056,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1011,6 +1080,8 @@ events:
       - "objdump"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1037,9 +1108,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1079,6 +1153,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1102,6 +1177,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1128,9 +1205,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objcopy"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1170,6 +1250,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1193,6 +1274,8 @@ events:
       - "readelf"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1219,9 +1302,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-readelf"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1261,6 +1347,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1284,6 +1371,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1310,8 +1399,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-dlltool"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-dlltool"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-dlltool"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-dlltool"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-dlltool"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-dlltool"
@@ -1338,7 +1430,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-dlltool"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-dlltool"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-dlltool"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-dlltool"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/dlltool"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/dlltool"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/dlltool"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/dlltool"
@@ -1365,9 +1460,12 @@ events:
       - "/opt/pmk/env/global/bin/dlltool"
       - "/Library/Apple/usr/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1407,6 +1505,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1430,6 +1529,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1456,9 +1557,12 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1498,6 +1602,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1521,6 +1626,8 @@ events:
       - "tapi"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1547,8 +1654,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-tapi"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-tapi"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-tapi"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-tapi"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-tapi"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-tapi"
@@ -1575,7 +1685,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-tapi"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-tapi"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-tapi"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-tapi"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/tapi"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/tapi"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/tapi"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/tapi"
@@ -1602,9 +1715,12 @@ events:
       - "/opt/pmk/env/global/bin/tapi"
       - "/Library/Apple/usr/bin/tapi"
       - "/opt/homebrew/bin/tapi"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1644,6 +1760,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1669,6 +1786,8 @@ events:
       - "xtensa-esp32s3-elf-gcc-ar"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1695,8 +1814,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
@@ -1723,7 +1845,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar-14"
@@ -1750,7 +1875,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar14"
@@ -1777,9 +1905,12 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar14"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1819,6 +1950,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1844,6 +1976,8 @@ events:
       - "xtensa-esp32s3-elf-gcc-ranlib"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -1870,8 +2004,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
@@ -1898,7 +2035,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
@@ -1925,7 +2065,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib14"
@@ -1952,9 +2095,12 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib14"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -1994,6 +2140,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2015,6 +2162,8 @@ events:
     names:
       - "xtensa-esp32s3-elf-g++"
     candidate_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -2042,7 +2191,10 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-g++"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-g++"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-g++"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-g++"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-g++"
@@ -2050,6 +2202,8 @@ events:
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2089,6 +2243,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2119,6 +2274,8 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2158,6 +2315,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2206,6 +2364,8 @@ events:
       - "xtensa-esp32s3-elf-gcc-ar"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -2232,8 +2392,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
@@ -2260,7 +2423,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar-14"
@@ -2287,7 +2453,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar14"
@@ -2314,9 +2483,12 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar14"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2356,6 +2528,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2381,6 +2554,8 @@ events:
       - "xtensa-esp32s3-elf-gcc-ranlib"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -2407,8 +2582,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
@@ -2435,7 +2613,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
@@ -2462,7 +2643,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib14"
@@ -2489,9 +2673,12 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib14"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2531,6 +2718,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2552,6 +2740,8 @@ events:
     names:
       - "xtensa-esp32s3-elf-gcc"
     candidate_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -2579,7 +2769,10 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc"
@@ -2587,6 +2780,8 @@ events:
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2626,6 +2821,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2665,6 +2861,8 @@ events:
       - "xtensa-esp32s3-elf-gcc-ar"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -2691,8 +2889,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar-"
@@ -2719,7 +2920,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar-"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ar-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ar-"
@@ -2746,9 +2950,12 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ar-"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ar-"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2788,6 +2995,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2813,6 +3021,8 @@ events:
       - "xtensa-esp32s3-elf-gcc-ranlib"
     candidate_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
@@ -2839,8 +3049,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib-"
@@ -2867,7 +3080,10 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/xtensa-esp32s3-elf-gcc-ranlib-"
@@ -2894,9 +3110,12 @@ events:
       - "/opt/pmk/env/global/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Library/Apple/usr/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32s3-elf-gcc-ranlib-"
     found: "/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maile/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/espcoredump"
         - "/Users/maile/esp/v5.5.1/esp-idf/components/partition_table"
         - "/Users/maile/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
@@ -2936,6 +3155,7 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/opt/homebrew/bin"
+        - "/Users/maile/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2946,8 +3166,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-Qhfppg"
-      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-Qhfppg"
+      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-HaGGDy"
+      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-HaGGDy"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2957,10 +3177,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-Qhfppg'
+        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-HaGGDy'
         
-        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_75bc3
-        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_bf1ca
+        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -2968,8 +3188,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75bc3.dir/'
-         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_75bc3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccC1RJUK.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_bf1ca.dir/'
+         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bf1ca.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccUOCFq4.s
         GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2986,12 +3206,12 @@ events:
          /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: af69fd9f9a101617223bab54c4450538
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75bc3.dir/'
-         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccC1RJUK.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_bf1ca.dir/'
+         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccUOCFq4.s
         COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj -o cmTC_75bc3   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj -o cmTC_bf1ca   && :
         Using built-in specs.
         COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3002,10 +3222,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_75bc3' '-dumpdir' 'cmTC_75bc3.'
-         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccgCyrGz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_75bc3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_bf1ca' '-dumpdir' 'cmTC_bf1ca.'
+         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccYKubGD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_bf1ca -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_75bc3' '-dumpdir' 'cmTC_75bc3.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_bf1ca' '-dumpdir' 'cmTC_bf1ca.'
         
       exitCode: 0
   -
@@ -3040,10 +3260,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-Qhfppg']
+        ignore line: [Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-HaGGDy']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_75bc3]
-        ignore line: [[1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_bf1ca]
+        ignore line: [[1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -3051,8 +3271,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75bc3.dir/']
-        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_75bc3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccC1RJUK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_bf1ca.dir/']
+        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bf1ca.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccUOCFq4.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3069,12 +3289,12 @@ events:
         ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: af69fd9f9a101617223bab54c4450538]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75bc3.dir/']
-        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccC1RJUK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_bf1ca.dir/']
+        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccUOCFq4.s]
         ignore line: [COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj -o cmTC_75bc3   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj -o cmTC_bf1ca   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3085,13 +3305,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_75bc3' '-dumpdir' 'cmTC_75bc3.']
-        link line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccgCyrGz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_75bc3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_bf1ca' '-dumpdir' 'cmTC_bf1ca.']
+        link line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccYKubGD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_bf1ca -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccgCyrGz.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccYKubGD.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3100,7 +3320,7 @@ events:
           arg [--sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_75bc3] ==> ignore
+          arg [cmTC_bf1ca] ==> ignore
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3]
@@ -3109,7 +3329,7 @@ events:
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_75bc3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_bf1ca.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3117,7 +3337,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_75bc3' '-dumpdir' 'cmTC_75bc3.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_bf1ca' '-dumpdir' 'cmTC_bf1ca.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
@@ -3144,8 +3364,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-VOPK5F"
-      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-VOPK5F"
+      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-gd04Hn"
+      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-gd04Hn"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3156,10 +3376,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-VOPK5F'
+        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-gd04Hn'
         
-        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_4abc7
-        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_7fcba
+        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -3167,8 +3387,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4abc7.dir/'
-         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4abc7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccqbTFub.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7fcba.dir/'
+         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7fcba.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccaWrNON.s
         GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3191,12 +3411,12 @@ events:
          /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: f95fb27b9d6b101b60d0ece4239a97f9
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4abc7.dir/'
-         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccqbTFub.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7fcba.dir/'
+         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccaWrNON.s
         COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4abc7   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7fcba   && :
         Using built-in specs.
         COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3207,10 +3427,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_4abc7' '-dumpdir' 'cmTC_4abc7.'
-         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccKLcDtg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_4abc7 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7fcba' '-dumpdir' 'cmTC_7fcba.'
+         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccjfwp9o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_7fcba -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_4abc7' '-dumpdir' 'cmTC_4abc7.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7fcba' '-dumpdir' 'cmTC_7fcba.'
         
       exitCode: 0
   -
@@ -3251,10 +3471,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-VOPK5F']
+        ignore line: [Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-gd04Hn']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_4abc7]
-        ignore line: [[1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_7fcba]
+        ignore line: [[1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -3262,8 +3482,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4abc7.dir/']
-        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4abc7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccqbTFub.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7fcba.dir/']
+        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7fcba.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccaWrNON.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3286,12 +3506,12 @@ events:
         ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f95fb27b9d6b101b60d0ece4239a97f9]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4abc7.dir/']
-        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccqbTFub.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7fcba.dir/']
+        ignore line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccaWrNON.s]
         ignore line: [COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4abc7   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7fcba   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3302,13 +3522,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_4abc7' '-dumpdir' 'cmTC_4abc7.']
-        link line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccKLcDtg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_4abc7 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7fcba' '-dumpdir' 'cmTC_7fcba.']
+        link line: [ /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccjfwp9o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_7fcba -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccKLcDtg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/r1/vw30dpls6dl9dzc0h03_qmf40000gn/T//ccjfwp9o.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3317,7 +3537,7 @@ events:
           arg [--sysroot=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4abc7] ==> ignore
+          arg [cmTC_7fcba] ==> ignore
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3]
@@ -3326,7 +3546,7 @@ events:
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_4abc7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_7fcba.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3336,7 +3556,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_4abc7' '-dumpdir' 'cmTC_4abc7.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7fcba' '-dumpdir' 'cmTC_7fcba.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> [/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
@@ -3364,8 +3584,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-IfoiKy"
-      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-IfoiKy"
+      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-DvcHE4"
+      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-DvcHE4"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3375,17 +3595,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-IfoiKy'
+        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-DvcHE4'
         
-        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_107ee
-        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_107ee.dir/src.c.obj -c /Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-IfoiKy/src.c
-        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_107ee.dir/src.c.obj -o cmTC_107ee   && :
-        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_107ee.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_107ee.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_107ee.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_107ee.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_107ee.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_107ee.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_d18e4
+        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_d18e4.dir/src.c.obj -c /Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-DvcHE4/src.c
+        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_d18e4.dir/src.c.obj -o cmTC_d18e4   && :
+        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d18e4.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d18e4.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d18e4.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d18e4.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d18e4.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d18e4.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0
@@ -3399,8 +3619,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-2YhKrJ"
-      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-2YhKrJ"
+      source: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-4lg6YK"
+      binary: "/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-4lg6YK"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3410,11 +3630,11 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-2YhKrJ'
+        Change Dir: '/Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-4lg6YK'
         
-        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_b0e40
-        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_b0e40.dir/src.c.obj -c /Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-2YhKrJ/src.c
-        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_b0e40.dir/src.c.obj -o cmTC_b0e40   && :
+        Run Build Command(s): /Users/maile/.espressif/tools/ninja/1.12.1/ninja -v cmTC_326c3
+        [1/2] /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_326c3.dir/src.c.obj -c /Users/maile/HSV_thresholding_colour_detect/build/CMakeFiles/CMakeScratch/TryCompile-4lg6YK/src.c
+        [2/2] : && /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_326c3.dir/src.c.obj -o cmTC_326c3   && :
         /Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0

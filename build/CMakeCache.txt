@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//No help, variable specified on the command line.
-CCACHE_ENABLE:UNINITIALIZED=0
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/Users/maile/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line
 
@@ -365,10 +362,10 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/Users/maile/esp/v5.5.1/esp-idf/components/mbedtls/mbedtls
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/Users/maile/.espressif/python_env/idf5.5_py3.13_env/bin/python3
+PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PYTHON_DEPS_CHECKED:UNINITIALIZED=1
+SDKCONFIG:UNINITIALIZED=/Users/maile/HSV_thresholding_colour_detect/sdkconfig
 
 //Allow unsafe builds. These builds ARE NOT SECURE.
 UNSAFE_BUILD:BOOL=OFF
@@ -605,7 +602,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.50.1 (Apple Git-155)()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/maile/.espressif/python_env/idf5.5_py3.13_env/bin/python3][found components: Interpreter ][v3.13.7()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/maile/.espressif/python_env/idf5.5_py3.13_env/bin/python][found components: Interpreter ][v3.13.7()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -616,10 +613,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/Users/maile/.espressif/python_env/idf5.5_py3.13_env/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/Users/maile/.espressif/python_env/idf5.5_py3.13_env/bin/python
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;7;32;64;;;abi3;/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13;/Users/maile/.espressif/python_env/idf5.5_py3.13_env/lib/python3.13;/Users/maile/.espressif/python_env/idf5.5_py3.13_env/lib/python3.13/site-packages;/Users/maile/.espressif/python_env/idf5.5_py3.13_env/lib/python3.13/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=5371974aa8eae19e76120a7b134d543f
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=8d3ec75d45d47f4ebfd9459af7115b22
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
